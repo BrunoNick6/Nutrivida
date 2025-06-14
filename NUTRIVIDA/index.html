@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Granja Nutrivida - Huevos y Pollos Frescos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">🥚 Granja Nutrivida</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SECCIÓN HERO/INICIO -->
+        <section id="inicio" class="hero">
+            <div class="container hero-content">
+                <h1>Granja Nutrivida</h1>
+                <p>Huevos y pollos frescos, directo del campo a tu mesa</p>
+                <p>Calidad premium, nutrición garantizada, sabor auténtico</p>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PRODUCTOS -->
+        <section id="productos" class="products container">
+            <h2>Nuestros Productos</h2>
+            <div class="product-grid">
+                <div class="product-card pulse">
+                    <span class="product-icon">🥚</span>
+                    <h3>Huevos Frescos</h3>
+                    <p>Huevos de gallinas criadas en libertad, ricos en nutrientes y con un sabor incomparable.</p>
+                    <div class="price">Desde 25 mil Guaranies</div>
+                    <p><strong>Disponibles:</strong> Blancos y marrones</p>
+                </div>
+                
+                <div class="product-card pulse">
+                    <span class="product-icon">🐔</span>
+                    <h3>Pollos Enteros</h3>
+                    <p>Pollos criados naturalmente, sin hormonas, alimentados con granos selectos.</p>
+                    <div class="price">Desde 12 mil Guaranies</div>
+                    <p><strong>Peso promedio:</strong> 1.5-2.5 kg</p>
+                </div>
+                
+                <div class="product-card pulse">
+                    <span class="product-icon">🍗</span>
+                    <h3>Cortes de Pollo</h3>
+                    <p>Pechuga, muslos, alas y otros cortes frescos, listos para cocinar.</p>
+                    <div class="price">Desde 30 mil Guaranies</div>
+                    <p><strong>Cortes disponibles:</strong> Todos los tipos</p>
+                </div>
+            </div>
+            
+            <!-- GARANTÍA DE CALIDAD -->
+            <div class="quality-guarantee">
+                <h3>✨ Garantía de Calidad</h3>
+                <p>• Productos 100% naturales sin químicos</p>
+                <p>• Entrega diaria para máxima frescura</p>
+                <p>• Certificación sanitaria vigente</p>
+            </div>
+        </section>
+
+        <!-- SECCIÓN CONTACTO -->
+        <section id="contacto" class="contact-form container">
+            <h2>📞 Contáctanos para tu Pedido</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo *</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Correo Electrónico *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefono">Número de Contacto *</label>
+                    <input type="tel" id="telefono" name="telefono" required placeholder="+595 xxx xxx xxx">
+                </div>
+                
+                <div class="form-group">
+                    <label for="producto">Producto de Interés</label>
+                    <select id="producto" name="producto" class="form-select">
+                        <option value="">Selecciona un producto</option>
+                        <option value="huevos">Huevos Frescos</option>
+                        <option value="pollos">Pollos Enteros</option>
+                        <option value="cortes">Cortes de Pollo</option>
+                        <option value="varios">Varios Productos</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="cantidad">Cantidad Aproximada</label>
+                    <input type="text" id="cantidad" name="cantidad" placeholder="Ej: 5 docenas, 3 pollos, etc.">
+                </div>
+                
+                <div class="form-group">
+                    <label for="mensaje">Mensaje Adicional</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos sobre tu pedido, frecuencia de compra, horario preferido de entrega, etc."></textarea>
+                </div>
+                
+                <div class="form-submit">
+                    <button type="submit" class="btn">Enviar Consulta 🚀</button>
+                </div>
+            </form>
+            
+            <!-- CONTACTO DIRECTO -->
+            <div class="contact-direct">
+                <h4>📍 También puedes contactarnos directamente:</h4>
+                <p><strong>WhatsApp:</strong> +595 971 173 710</p>
+                <p><strong>Email:</strong> brunolr2003@gmail.com</p>
+                <p><strong>Horarios:</strong> Lunes a Sábado 6:00 AM - 6:00 PM</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Granja Nutrivida</h3>
+                    <p>Tu fuente confiable de productos avícolas frescos y de calidad premium.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>📧 brunolr2003@gmail.com</p>
+                    <p>📱 +595 971 173 710</p>
+                    <p>📍 Asunción, Paraguay</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Horarios</h3>
+                    <p>Lunes - Sábado: 6:00 AM - 6:00 PM</p>
+                    <p>Entregas todos los días</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Granja Nutrivida. Todos los derechos reservados.</p>
+                <p>Productos frescos, calidad garantizada 🥚🐔</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
